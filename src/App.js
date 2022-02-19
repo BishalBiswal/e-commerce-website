@@ -71,13 +71,13 @@ const App =()=>{
 
         <section className='middle'>
           <div className="grid">
-            <div className="g-col-4 cardimg1"> <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt=""/></div>
+            <div className="g-col-4 cardimg1"> <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="."/></div>
             <div className="g-col-6 cardtext">
             <p>
             <h1>Fast and Efficient software</h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat explicabo illo eos necessitatibus aliquam ducimus possimus labore! Quod fugiat distinctio fuga necessitatibus, esse quaerat blanditiis eaque tempore consequatur ratione deleniti ut explicabo consectetur exercitationem corporis aut! Dolorum ab corporis dicta eum omnis, nemo, quisquam maxime perspiciatis eius, a temporibus quis.
             </p>
             </div>
-            <div className="g-col-4 cardimg2"> <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt=""/></div>
+            <div className="g-col-4 cardimg2"> <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="."/></div>
           </div>
           <div className="grid">
             <div className="g-col-6 cardimg3"> <img src="https://images.pexels.com/photos/6120170/pexels-photo-6120170.jpeg" alt=""/></div>
