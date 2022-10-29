@@ -4,16 +4,19 @@
     flex-direction: column;
     justify-content: center;
   }
+
   .btn {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
+
   .btn:hover {
     background-color: transparent;
     border-color: crimson;
     color: coral;
   }
+
   .btn-outline-warning {
     margin: 10px;
     display: flex;
@@ -26,9 +29,11 @@
     color: coral;
     box-shadow: none;
   }
+
   .btn-outline-warning:not(:disabled):not(.disabled):active:focus {
     box-shadow: none;
   }
+
   .btn-outline-warning:focus {
     background-color: antiquewhite;
     border-color: crimson;
@@ -53,16 +58,19 @@
     position: sticky;
     top: 0px;
   }
+
   .canva img {
     width: 300px;
     height: 500px;
   }
+
   #login {
     display: none;
     flex-direction: row;
     width: 208px;
     justify-content: space-between;
   }
+
   #login1 {
     display: flex;
     flex-direction: row;
@@ -80,33 +88,40 @@
     background-color: #e45757;
     box-shadow: none;
   }
+
   .btn-danger:focus {
     background-color: #e45757;
     border-color: crimson;
   }
+
   .btn:hover {
     background-color: beige;
   }
+
   .btn-danger:not(:disabled, .disabled):active:focus {
     box-shadow: none;
   }
+
   .hed {
     color: #ca6868;
     font-weight: 670;
     font-family: Calibri;
   }
+
   #d1 {
     background-image: url('./971.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 55%;
   }
+
   #d2 {
     background-image: url('./pexels-photo-2115217.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
   }
+
   .footer {
     background-color: rgb(243, 232, 217);
     display: flex;
@@ -115,6 +130,7 @@
     width: 100%;
     object-fit: contain;
   }
+
   .about {
     margin-top: 30px;
     margin-left: 5px;
@@ -122,12 +138,14 @@
     display: flex;
     flex-direction: column;
   }
+
   .elems {
     cursor: pointer;
     width: 100%;
     display: flex;
     flex-direction: row;
   }
+
   .bottom {
     background-color: rgb(168, 164, 164);
     height: 70px;
@@ -135,15 +153,19 @@
     align-items: center;
     justify-content: center;
   }
+
   .middle {
     display: flex;
     flex-direction: column;
   }
+
   .cardd {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
+
   .card {
     height: 400px;
     margin: 15px;
@@ -153,13 +175,16 @@
     color: black;
     cursor: pointer;
   }
+
   .card:hover {
     border-color: #d34b4b;
     border-width: 4px;
   }
+
   .card img {
     height: 200px;
   }
+
   .cardss {
     background-image: url('./close-up-male-hands-using-laptop-home.jpg');
     background-size: cover;
@@ -167,11 +192,13 @@
     padding-top: 90px;
     padding-bottom: 80px;
   }
+
   .cardss h2,
   article {
     padding-left: 50px;
     padding-right: 50px;
   }
+
   .grid {
     display: flex;
     flex-direction: column;
@@ -180,10 +207,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .grid img {
     width: 600px;
     height: 400px;
   }
+
   .cardtext {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -193,6 +222,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  .cardtext p {
+    margin: 10px;
+  }
+
   .cardimg1 img {
     height: 100%;
     width: 100%;
@@ -202,28 +236,33 @@
   .cardimg2 {
     display: none;
   }
+
   .cardimg3 img {
     height: 100%;
     width: 100%;
     object-fit: contain;
   }
 }
+
 @media screen and (min-width: 768px) {
   .all {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .btn {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
+
   .btn:hover {
     background-color: transparent;
     border-color: crimson;
     color: coral;
   }
+
   .btn-outline-warning {
     margin: 10px;
     display: flex;
@@ -236,9 +275,11 @@
     color: coral;
     box-shadow: none;
   }
+
   .btn-outline-warning:not(:disabled):not(.disabled):active:focus {
     box-shadow: none;
   }
+
   .btn-outline-warning:focus {
     background-color: antiquewhite;
     border-color: crimson;
@@ -263,22 +304,26 @@
     position: sticky;
     top: 0px;
   }
+
   .canva img {
     width: 300px;
     height: 500px;
   }
+
   #login1 {
     display: none;
     flex-direction: row;
     width: 208px;
     justify-content: space-between;
   }
+
   #login {
     display: flex;
     flex-direction: row;
     width: 208px;
     justify-content: space-between;
   }
+
   .btn-danger {
     display: flex;
     flex-direction: row;
@@ -289,34 +334,41 @@
     background-color: #e45757;
     box-shadow: none;
   }
+
   .btn-danger:focus {
     background-color: #e45757;
     border-color: crimson;
   }
+
   .btn:hover {
     background-color: beige;
   }
+
   .btn-danger:not(:disabled, .disabled):active:focus {
     box-shadow: none;
   }
+
   .hed {
     padding-left: 30px;
     color: #ca6868;
     font-weight: 670;
     font-family: Calibri;
   }
+
   #d1 {
     background-image: url('./971.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 55%;
   }
+
   #d2 {
     background-image: url('https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
   }
+
   .footer {
     background-color: rgb(243, 232, 217);
     width: 100%;
@@ -324,18 +376,21 @@
     flex-direction: row;
     justify-content: center;
   }
+
   .about {
     margin: 30px;
     width: 250px;
     display: flex;
     flex-direction: column;
   }
+
   .elems {
     cursor: pointer;
     width: 220px;
     display: flex;
     flex-direction: row;
   }
+
   .bottom {
     background-color: rgb(168, 164, 164);
     height: 70px;
@@ -343,20 +398,24 @@
     align-items: center;
     justify-content: center;
   }
+
   .middle {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .middle h2,
   article {
     padding-left: 0px;
   }
+
   .cardd {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+
   .card {
     height: 400px;
     margin: 15px;
@@ -366,6 +425,7 @@
     color: black;
     cursor: pointer;
   }
+
   .card:hover {
     border-color: #d34b4b;
     border-width: 4px;
@@ -374,6 +434,7 @@
   .card img {
     height: 200px;
   }
+
   .cardss {
     background-image: url('./close-up-male-hands-using-laptop-home.jpg');
     background-size: cover;
@@ -381,13 +442,16 @@
     padding-top: 90px;
     padding-bottom: 80px;
   }
+
   .card-body {
     padding: 5px;
   }
+
   .cardss h2,
   article {
     padding-left: 100px;
   }
+
   .grid {
     display: flex;
     flex-direction: row;
@@ -396,10 +460,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .grid img {
     width: 600px;
     height: 400px;
   }
+
   .cardtext {
     height: 400px;
     color: whitesmoke;
@@ -410,37 +476,45 @@
     justify-content: center;
     align-items: center;
   }
+
   .cardimg1 {
     display: none;
   }
+
   .cardimg2 {
     display: flex;
   }
+
   .cardimg2 img {
     width: 400px;
     object-fit: cover;
   }
+
   .cardimg3 img {
     width: 500px;
     object-fit: cover;
   }
 }
+
 @media screen and (min-width: 1000px) {
   .all {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .btn {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
+
   .btn:hover {
     background-color: transparent;
     border-color: crimson;
     color: coral;
   }
+
   .btn-outline-warning {
     margin: 10px;
     display: flex;
@@ -453,9 +527,11 @@
     color: coral;
     box-shadow: none;
   }
+
   .btn-outline-warning:not(:disabled):not(.disabled):active:focus {
     box-shadow: none;
   }
+
   .btn-outline-warning:focus {
     background-color: antiquewhite;
     border-color: crimson;
@@ -480,22 +556,26 @@
     position: sticky;
     top: 0px;
   }
+
   .canva img {
     width: 300px;
     height: 500px;
   }
+
   #login1 {
     display: none;
     flex-direction: row;
     width: 208px;
     justify-content: space-between;
   }
+
   #login {
     display: flex;
     flex-direction: row;
     width: 208px;
     justify-content: space-between;
   }
+
   .btn-danger {
     display: flex;
     flex-direction: row;
@@ -506,34 +586,41 @@
     background-color: #e45757;
     box-shadow: none;
   }
+
   .btn-danger:focus {
     background-color: #e45757;
     border-color: crimson;
   }
+
   .btn:hover {
     background-color: beige;
   }
+
   .btn-danger:not(:disabled, .disabled):active:focus {
     box-shadow: none;
   }
+
   .hed {
     padding-left: 30px;
     color: #ca6868;
     font-weight: 670;
     font-family: Calibri;
   }
+
   #d1 {
     background-image: url('./971.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 55%;
   }
+
   #d2 {
     background-image: url('https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
   }
+
   .footer {
     background-color: rgb(243, 232, 217);
     width: 100%;
@@ -541,18 +628,21 @@
     flex-direction: row;
     justify-content: center;
   }
+
   .about {
     margin: 30px;
     width: 250px;
     display: flex;
     flex-direction: column;
   }
+
   .elems {
     cursor: pointer;
     width: 220px;
     display: flex;
     flex-direction: row;
   }
+
   .bottom {
     background-color: rgb(168, 164, 164);
     height: 70px;
@@ -560,16 +650,19 @@
     align-items: center;
     justify-content: center;
   }
+
   .middle {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .cardd {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+
   .card {
     height: 400px;
     margin: 15px;
@@ -579,13 +672,16 @@
     color: black;
     cursor: pointer;
   }
+
   .card:hover {
     border-color: #d34b4b;
     border-width: 4px;
   }
+
   .card img {
     height: 200px;
   }
+
   .cardss {
     background-image: url('./close-up-male-hands-using-laptop-home.jpg');
     background-size: cover;
@@ -593,10 +689,12 @@
     padding-top: 90px;
     padding-bottom: 80px;
   }
+
   .cardss h2,
   article {
     padding-left: 110px;
   }
+
   .grid {
     display: flex;
     flex-direction: row;
@@ -605,10 +703,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .grid img {
     width: 600px;
     height: 400px;
   }
+
   .cardtext {
     color: whitesmoke;
     background-color: #f3705f;
@@ -618,9 +718,11 @@
     justify-content: center;
     align-items: center;
   }
+
   .cardimg1 {
     display: none;
   }
+
   .cardimg2 {
     display: flex;
   }
